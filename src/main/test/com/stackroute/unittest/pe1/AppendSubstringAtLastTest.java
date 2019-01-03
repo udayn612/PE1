@@ -6,13 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques9Test {
+public class AppendSubstringAtLastTest {
 
-    Ques9 q9;
+    AppendSubstringAtLast q10;
     @Before
     public void setUp() throws Exception {
-
-         q9=new Ques9();
+        q10=new AppendSubstringAtLast();
     }
 
     @After
@@ -20,8 +19,7 @@ public class Ques9Test {
     }
 
     @Test
-    public void reversestring() {
-
-        assertEquals("cba",q9.reversestring("abc"));
+    public void generateatlast() {
+        assertEquals("Stackroutetete",q10.generateatlast(2,"Stackroute"));
     }
 }

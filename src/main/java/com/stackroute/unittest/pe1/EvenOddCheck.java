@@ -3,7 +3,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques2 {
+public class EvenOddCheck {
 
 
     public String isoddeven(long n)
@@ -29,7 +29,7 @@ public class Ques2 {
         System.out.println("Enter a number: ");
         long n = scanner.nextLong();
 
-        Ques2 qs = new Ques2();
+        EvenOddCheck qs = new EvenOddCheck();
 
         System.out.println(qs.isoddeven(n));
 

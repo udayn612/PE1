@@ -6,33 +6,35 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques7Test {
+public class EvenOddCheckTest {
 
-    Ques7 qs;
+    EvenOddCheck qs=new EvenOddCheck();
     @Before
     public void setUp() throws Exception {
-        qs=new Ques7();
+
+        System.out.println("Inside Setup");
     }
 
     @After
     public void tearDown() throws Exception {
-        qs=null;
-    }
-
-
-
-    @Test
-    public void sortnumbers() {
-        assertEquals("544332",qs.sortnumbers(234534));
+        System.out.println("Inside tearDown");
     }
 
     @Test
-    public void add() {
-        assertEquals(10,qs.add(234534));
+    public void main() {
+    }
+
+    @Test
+    public void isoddeven() {
+        assertEquals("Tom",qs.isoddeven(21));
+
     }
 
     @Test
     public void check() {
-        assertEquals(false,qs.check(234534));
+        assertEquals("Jerry",qs.isoddeven(22));
+
     }
+
+
 }

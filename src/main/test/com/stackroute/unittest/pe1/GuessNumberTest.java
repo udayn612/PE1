@@ -8,14 +8,14 @@ import java.io.ByteArrayInputStream;
 
 import static org.junit.Assert.*;
 
-public class Ques8Test {
+public class GuessNumberTest {
 
-    Ques8 q8;
+    GuessNumber q8;
     private static final String Inp="23 44 34";
     ByteArrayInputStream input=new ByteArrayInputStream(Inp.getBytes());
     @Before
     public void setUp() throws Exception {
-        q8=new Ques8();
+        q8=new GuessNumber();
         System.setIn(input);
     }
 

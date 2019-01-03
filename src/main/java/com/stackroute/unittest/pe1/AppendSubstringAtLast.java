@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques10 {
+public class AppendSubstringAtLast {
 
     public String generateatlast(int n, String s)
     {
@@ -33,7 +33,7 @@ public class Ques10 {
         System.out.println("Enter the number");
         int n=ob.nextInt();
 
-        Ques10 qs= new Ques10();
+        AppendSubstringAtLast qs= new AppendSubstringAtLast();
         System.out.println(qs.generateatlast(n,s));
 
     }

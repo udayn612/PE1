@@ -6,12 +6,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques10Test {
+public class ReverseWithoutStringBufferTest {
 
-    Ques10 q10;
+    ReverseWithoutStringBuffer q9;
     @Before
     public void setUp() throws Exception {
-        q10=new Ques10();
+
+         q9=new ReverseWithoutStringBuffer();
     }
 
     @After
@@ -19,7 +20,8 @@ public class Ques10Test {
     }
 
     @Test
-    public void generateatlast() {
-        assertEquals("Stackroutetete",q10.generateatlast(2,"Stackroute"));
+    public void reversestring() {
+
+        assertEquals("cba",q9.reversestring("abc"));
     }
 }

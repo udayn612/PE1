@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques7 {
+public class SortNumbers {
 
     public  static int lengthofinput(int n)
     {
@@ -76,7 +76,7 @@ public class Ques7 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n = scanner.nextInt();
-        Ques7 qs = new Ques7();
+        SortNumbers qs = new SortNumbers();
         System.out.println(qs.sortnumbers(n));
         System.out.println(qs.add(n));
         System.out.println(qs.check(n));

@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques9 {
+public class ReverseWithoutStringBuffer {
 
 
     public String reversestring(String str1)
@@ -20,7 +20,7 @@ public class Ques9 {
         Scanner sc = new Scanner(System.in);
         String str=sc.next();
 
-        Ques9 qs= new Ques9();
+        ReverseWithoutStringBuffer qs= new ReverseWithoutStringBuffer();
 
         System.out.println(qs.reversestring(str));
 

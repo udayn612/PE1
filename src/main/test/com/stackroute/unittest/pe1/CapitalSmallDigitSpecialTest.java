@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques6Test {
+public class CapitalSmallDigitSpecialTest {
 
-    Ques6 qs;
+    CapitalSmallDigitSpecial qs;
     @Before
     public void setUp() throws Exception {
-        qs=new Ques6();
+        qs=new CapitalSmallDigitSpecial();
     }
 
     @After

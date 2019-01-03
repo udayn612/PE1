@@ -4,15 +4,14 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.*;
 
-public class Ques4Test {
+public class PrintLoopTest {
 
-    Ques4 qs;
+    PrintLoop qs;
     @Before
     public void setUp() throws Exception {
-        qs=new Ques4();
+        qs=new PrintLoop();
     }
 
     @After

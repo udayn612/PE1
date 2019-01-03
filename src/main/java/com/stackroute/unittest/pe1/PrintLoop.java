@@ -3,7 +3,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques4 {
+public class PrintLoop {
 
     public String generatenumbers(int n)
     {
@@ -25,7 +25,7 @@ public class Ques4 {
         System.out.println("Enter a number: ");
         int n = scanner.nextInt();
 
-        Ques4 qs = new Ques4();
+        PrintLoop qs = new PrintLoop();
         System.out.println(qs.generatenumbers(n));
     }
 }

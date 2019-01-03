@@ -6,26 +6,26 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques3Test {
+public class VowelConsonentCheckTest {
 
-    Ques3 ques3_obj;
+    VowelConsonentCheck vowelConsonentCheck_obj;
     @Before
     public void setUp() throws Exception {
-        ques3_obj=new Ques3();
+        vowelConsonentCheck_obj =new VowelConsonentCheck();
     }
 
     @After
     public void tearDown() throws Exception {
-        ques3_obj=null;
+        vowelConsonentCheck_obj =null;
     }
 
     @Test
     public void isvowelconsonent() {
-        assertEquals(true,ques3_obj.isvowelconsonent("a"));
+        assertEquals(true, vowelConsonentCheck_obj.isvowelconsonent("a"));
     }
 
     @Test
     public void ischaracter() {
-        assertEquals(true,ques3_obj.ischaracter("p"));
+        assertEquals(true, vowelConsonentCheck_obj.ischaracter("p"));
     }
 }

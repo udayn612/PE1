@@ -1,7 +1,7 @@
 package com.stackroute.unittest.pe1;
 import java.util.Scanner;
 
-public class Ques1 {
+public class PalindromeCheck {
     public boolean palindrome(long n) {
         long s;  /*Sum variable */
         long num = n;
@@ -31,7 +31,7 @@ public class Ques1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        Ques1 qs=new Ques1();
+        PalindromeCheck qs=new PalindromeCheck();
         long n = scanner.nextLong();
         if (qs.palindrome(n)) {  /*If number is palindrome */
             System.out.println("Given number is palindrome");

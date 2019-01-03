@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques8 {
+public class GuessNumber {
 
     public boolean func(int random) {
         System.out.println("Enter the guessed number: ");
@@ -26,7 +26,7 @@ public class Ques8 {
     public static void main(String[] args) {
         int n = (int) (Math.random() * 50 + 1);   /*Generating random number*/
 
-        Ques8 obj = new Ques8();
+        GuessNumber obj = new GuessNumber();
         boolean result = obj.func(n);
         System.out.println(result);
     }

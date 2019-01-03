@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques3 {
+public class VowelConsonentCheck {
     public  boolean isvowelconsonent(String str) {
         int l = str.length();
         int found=0;
@@ -46,7 +46,7 @@ public class Ques3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a word: ");
         String str = scanner.nextLine();
-        Ques3 qs=new Ques3();
+        VowelConsonentCheck qs=new VowelConsonentCheck();
         if(qs.isvowelconsonent(str))
         {
             System.out.println("Everthing is vowel");

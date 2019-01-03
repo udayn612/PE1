@@ -3,7 +3,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
-public class Ques5 {
+public class SumOfNumbers {
 
     public long sum(String s)
     {
@@ -22,7 +22,7 @@ public class Ques5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter numbers: ");
         String s=scanner.nextLine();
-        Ques5 obj = new Ques5();
+        SumOfNumbers obj = new SumOfNumbers();
         System.out.println("Sum = " + obj.sum(s));
     }
 }

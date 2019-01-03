@@ -6,12 +6,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Ques5Test {
+public class SumOfNumbersTest {
 
-    Ques5 qs;
+    SumOfNumbers qs;
     @Before
     public void setUp() throws Exception {
-        qs=new Ques5();
+        qs=new SumOfNumbers();
     }
 
     @After
