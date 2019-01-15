@@ -22,6 +22,6 @@ public class ReverseWithoutStringBufferTest {
     @Test
     public void reversestring() {
 
-        assertEquals("cba",q9.reversestring("abc"));
+        assertEquals("cba",q9.reverseString("abc"));
     }
 }

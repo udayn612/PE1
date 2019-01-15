@@ -2,6 +2,15 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+/*
+Write a program for the following condition:
+Given 2 inputs , where input1 is string and input 2 is integer value,
+the last n characters should repeat n number of times in the output String.
+Input1:            Stackroute
+Input2:            5
+Output1:           Stackrouterouterouterouterouteroute
+ */
+
 public class AppendSubstringAtLast {
 
     public String generateatlast(int n, String s)
@@ -25,16 +34,4 @@ public class AppendSubstringAtLast {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-
-        Scanner ob =new Scanner(System.in);
-        System.out.println("Enter the String");
-        String s = ob.next();
-        System.out.println("Enter the number");
-        int n=ob.nextInt();
-
-        AppendSubstringAtLast qs= new AppendSubstringAtLast();
-        System.out.println(qs.generateatlast(n,s));
-
-    }
 }

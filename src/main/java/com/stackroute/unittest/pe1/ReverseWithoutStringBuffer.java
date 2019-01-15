@@ -2,10 +2,16 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+/*
+Write a program to reverse any string without using String Buffer.
+Input : london
+Output : nodnol
+ */
+
 public class ReverseWithoutStringBuffer {
 
 
-    public String reversestring(String str1)
+    public String reverseString(String str1)
     {
         String str2 = "";
 
@@ -14,18 +20,6 @@ public class ReverseWithoutStringBuffer {
         }
         return str2;
     }
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        String str=sc.next();
-
-        ReverseWithoutStringBuffer qs= new ReverseWithoutStringBuffer();
-
-        System.out.println(qs.reversestring(str));
-
-    }
-
 }
 
 

@@ -3,6 +3,13 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+
+/*
+Write a program which accepts an integer number as input from the user and perform the following conditional checks:
+a. Print Tom if number is odd and exists between 20 to 30
+b. Print Jerry, if number is even and exists between 20 and 30
+ */
+
 public class EvenOddCheck {
 
 
@@ -23,16 +30,4 @@ public class EvenOddCheck {
 
     }
 
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        long n = scanner.nextLong();
-
-        EvenOddCheck qs = new EvenOddCheck();
-
-        System.out.println(qs.isoddeven(n));
-
-
-    }
 }

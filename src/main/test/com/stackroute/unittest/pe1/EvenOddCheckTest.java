@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class EvenOddCheckTest {
 
-    EvenOddCheck qs=new EvenOddCheck();
+    EvenOddCheck evenOddCheck=new EvenOddCheck();
     @Before
     public void setUp() throws Exception {
 
@@ -26,13 +26,13 @@ public class EvenOddCheckTest {
 
     @Test
     public void isoddeven() {
-        assertEquals("Tom",qs.isoddeven(21));
+        assertEquals("Tom",evenOddCheck.isoddeven(21));
 
     }
 
     @Test
     public void check() {
-        assertEquals("Jerry",qs.isoddeven(22));
+        assertEquals("Jerry",evenOddCheck.isoddeven(22));
 
     }
 

@@ -1,6 +1,19 @@
 package com.stackroute.unittest.pe1;
 import java.util.Scanner;
 
+
+/*
+Write a program which accepts a number as input and check whether the given number is palindrome or not If it is a palindrome then
+a. Add all the even numbers and check whether the sum is more than 25.
+b. Print success and failure messages for all 3 conditions
+Input : 2468642
+Output : 2468642 is palindrome and the sum of even numbers is greater than 25
+Input: 12345
+Output: 12345 is not palindrome
+Input: 12345654321
+Output : 12345654321 is palindrome and sum of even numbers is less than 25
+*/
+
 public class PalindromeCheck {
     public boolean palindrome(long n) {
         long s;  /*Sum variable */
@@ -26,20 +39,5 @@ public class PalindromeCheck {
             }
         }
         return s;
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        PalindromeCheck qs=new PalindromeCheck();
-        long n = scanner.nextLong();
-        if (qs.palindrome(n)) {  /*If number is palindrome */
-            System.out.println("Given number is palindrome");
-        } else {
-            System.out.println("Given number is not a palindrome");
-        }
-
-        System.out.println(qs.evenNumberSum(n));
-
     }
 }

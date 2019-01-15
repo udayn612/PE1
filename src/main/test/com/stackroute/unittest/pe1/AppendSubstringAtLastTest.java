@@ -8,10 +8,10 @@ import static org.junit.Assert.*;
 
 public class AppendSubstringAtLastTest {
 
-    AppendSubstringAtLast q10;
+    AppendSubstringAtLast appendSubstringAtLast;
     @Before
     public void setUp() throws Exception {
-        q10=new AppendSubstringAtLast();
+        appendSubstringAtLast=new AppendSubstringAtLast();
     }
 
     @After
@@ -20,6 +20,6 @@ public class AppendSubstringAtLastTest {
 
     @Test
     public void generateatlast() {
-        assertEquals("Stackroutetete",q10.generateatlast(2,"Stackroute"));
+        assertEquals("Stackroutetete",appendSubstringAtLast.generateatlast(2,"Stackroute"));
     }
 }

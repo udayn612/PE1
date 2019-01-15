@@ -3,6 +3,12 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+/*
+Write a program that takes a character from the user as input and determines whether the character entered is a capital letter, a small case letter, a digit or a special symbol and display appropriately.
+Input:  A
+Output:  Capital letter
+ */
+
 public class CapitalSmallDigitSpecial {
 
     public String check(char c) {
@@ -16,16 +22,5 @@ public class CapitalSmallDigitSpecial {
             return "Special Character";
         }
     }
-
-
-
-        public static void main(String args[])
-        {
-            System.out.println("Enter the character you want to check");
-            Scanner ob =new Scanner(System.in);
-            char c=ob.next().charAt(0);
-            CapitalSmallDigitSpecial qs=new CapitalSmallDigitSpecial();
-            System.out.println(qs.check(c));
-        }
 
     }

@@ -8,19 +8,19 @@ import static org.junit.Assert.*;
 
 public class SumOfNumbersTest {
 
-    SumOfNumbers qs;
+    SumOfNumbers sumOfNumbers;
     @Before
     public void setUp() throws Exception {
-        qs=new SumOfNumbers();
+        sumOfNumbers=new SumOfNumbers();
     }
 
     @After
     public void tearDown() throws Exception {
-        qs=null;
+        sumOfNumbers=null;
     }
 
     @Test
     public void sum() {
-        assertEquals(41,qs.sum("12 23 2 4"));
+        assertEquals(41,sumOfNumbers.sum("12 23 2 4"));
     }
 }

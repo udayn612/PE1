@@ -23,11 +23,4 @@ public class GuessNumber {
         return true;
     }
 
-    public static void main(String[] args) {
-        int n = (int) (Math.random() * 50 + 1);   /*Generating random number*/
-
-        GuessNumber obj = new GuessNumber();
-        boolean result = obj.func(n);
-        System.out.println(result);
-    }
 }

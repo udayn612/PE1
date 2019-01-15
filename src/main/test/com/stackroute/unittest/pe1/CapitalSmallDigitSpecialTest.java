@@ -8,34 +8,34 @@ import static org.junit.Assert.*;
 
 public class CapitalSmallDigitSpecialTest {
 
-    CapitalSmallDigitSpecial qs;
+    CapitalSmallDigitSpecial capitalSmallDigitSpecial;
     @Before
     public void setUp() throws Exception {
-        qs=new CapitalSmallDigitSpecial();
+        capitalSmallDigitSpecial=new CapitalSmallDigitSpecial();
     }
 
     @After
     public void tearDown() throws Exception {
-        qs=null;
+        capitalSmallDigitSpecial=null;
     }
 
     @Test
     public void checkuppercase () {
-        assertEquals("Capital letter",qs.check('A'));
+        assertEquals("Capital letter",capitalSmallDigitSpecial.check('A'));
     }
 
     @Test
     public void checklowercase() {
-        assertEquals("Lower case letter",qs.check('a'));
+        assertEquals("Lower case letter",capitalSmallDigitSpecial.check('a'));
     }
 
     @Test
     public void checkdigit() {
-        assertEquals("Digit",qs.check('1'));
+        assertEquals("Digit",capitalSmallDigitSpecial.check('1'));
     }
 
     @Test
     public void checkspecialcharacter() {
-        assertEquals("Special Character",qs.check('@'));
+        assertEquals("Special Character",capitalSmallDigitSpecial.check('@'));
     }
 }

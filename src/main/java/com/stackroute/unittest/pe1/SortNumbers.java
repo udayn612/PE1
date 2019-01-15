@@ -2,6 +2,16 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+
+/*
+Write a program which accepts a number as input from user and perform the following:
+a. sort the number in non-increasing order
+b. after sorting sum all the even numbers, the sum should be greater than 15 .
+c. if sum is more than 15,then print output as true or false.
+Input  : 234534
+Output : Sorted number in non-increasing order : 544332
+ */
+
 public class SortNumbers {
 
     public  static int lengthofinput(int n)
@@ -68,17 +78,5 @@ public class SortNumbers {
             return true;
         else
             return false;
-    }
-
-
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = scanner.nextInt();
-        SortNumbers qs = new SortNumbers();
-        System.out.println(qs.sortnumbers(n));
-        System.out.println(qs.add(n));
-        System.out.println(qs.check(n));
     }
 }

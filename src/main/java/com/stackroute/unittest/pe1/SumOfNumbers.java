@@ -18,13 +18,6 @@ public class SumOfNumbers {
 
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter numbers: ");
-        String s=scanner.nextLine();
-        SumOfNumbers obj = new SumOfNumbers();
-        System.out.println("Sum = " + obj.sum(s));
-    }
 }
 
 

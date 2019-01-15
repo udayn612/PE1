@@ -8,20 +8,20 @@ import static org.junit.Assert.*;
 
 public class PrintLoopTest {
 
-    PrintLoop qs;
+    PrintLoop printLoop;
     @Before
     public void setUp() throws Exception {
-        qs=new PrintLoop();
+        printLoop=new PrintLoop();
     }
 
     @After
     public void tearDown() throws Exception {
-        qs=null;
+        printLoop=null;
     }
 
     @Test
     public void generatenumbers() {
 
-        assertEquals("122333",qs.generatenumbers(3));
+        assertEquals("122333",printLoop.generatenumbers(3));
     }
 }

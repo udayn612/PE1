@@ -10,12 +10,12 @@ import static org.junit.Assert.*;
 
 public class GuessNumberTest {
 
-    GuessNumber q8;
+    GuessNumber guessNumber;
     private static final String Inp="23 44 34";
     ByteArrayInputStream input=new ByteArrayInputStream(Inp.getBytes());
     @Before
     public void setUp() throws Exception {
-        q8=new GuessNumber();
+        guessNumber=new GuessNumber();
         System.setIn(input);
     }
 
@@ -26,6 +26,6 @@ public class GuessNumberTest {
     @Test
     public void func() {
 
-        assertEquals(true,q8.func(34));
+        assertEquals(true,guessNumber.func(34));
     }
 }

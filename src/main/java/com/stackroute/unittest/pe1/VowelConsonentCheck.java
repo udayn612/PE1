@@ -2,6 +2,18 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Scanner;
 
+/*
+Create a program that accepts a word as input and checks for each single character letter in the word whether it is a consonant or vowel.
+Condition:
+    a. Print an error message if the input is not a letter
+    b. If the input having more than one letter, print the required output
+          (Vowel or Consonant) for each letter
+Input : p
+Output : Consonant
+Input : ap
+Output : Vowel Consonant
+ */
+
 public class VowelConsonentCheck {
     public  boolean isvowelconsonent(String str) {
         int l = str.length();
@@ -39,27 +51,5 @@ public class VowelConsonentCheck {
             return true;
         else
             return false;
-    }
-
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a word: ");
-        String str = scanner.nextLine();
-        VowelConsonentCheck qs=new VowelConsonentCheck();
-        if(qs.isvowelconsonent(str))
-        {
-            System.out.println("Everthing is vowel");
-        }
-        else
-        {
-            System.out.println("Everything is not vowel");
-        }
-        if( qs.ischaracter(str)){
-            System.out.println("the entered string is all characters");
-        }
-       else{
-            System.out.println("please enter valid input(only characters)");
-        }
     }
 }

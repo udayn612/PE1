@@ -8,31 +8,31 @@ import static org.junit.Assert.*;
 
 public class SortNumbersTest {
 
-    SortNumbers qs;
+    SortNumbers sortNumbers;
     @Before
     public void setUp() throws Exception {
-        qs=new SortNumbers();
+        sortNumbers=new SortNumbers();
     }
 
     @After
     public void tearDown() throws Exception {
-        qs=null;
+        sortNumbers=null;
     }
 
 
 
     @Test
     public void sortnumbers() {
-        assertEquals("544332",qs.sortnumbers(234534));
+        assertEquals("544332",sortNumbers.sortnumbers(234534));
     }
 
     @Test
     public void add() {
-        assertEquals(10,qs.add(234534));
+        assertEquals(10,sortNumbers.add(234534));
     }
 
     @Test
     public void check() {
-        assertEquals(false,qs.check(234534));
+        assertEquals(false,sortNumbers.check(234534));
     }
 }
